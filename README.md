@@ -2,7 +2,7 @@
 
 ## Day 01
 
-  - [ ] Create a GitHub Repository: React-Journey
+  - [ ] Fork GitHub Repository: [React-Journey](https://github.com/in-tech-gration/React-Journey)
   - [ ] Extension Draw.io
   - [ ] React DevTools
   - [ ] [Try React locally](https://react.dev/learn/installation#try-react-locally)
