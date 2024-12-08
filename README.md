@@ -2,7 +2,7 @@
 
 > React: The library for web and native user interfaces
 
-## Day 01
+## Day 01: Intro to the React Philosophy of Components
 
   **Agenda**
 
@@ -58,3 +58,5 @@
   - [Rendering Lists](https://react.dev/learn/rendering-lists)
 
 ---
+
+## Day 03
