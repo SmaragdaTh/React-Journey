@@ -16,7 +16,7 @@
 **Tasks**
 
 - [x] Create a personal/professional GitHub account
-- [ ] Fork GitHub Repository: [React-Journey](https://github.com/in-tech-gration/React-Journey)
+- [x] Fork GitHub Repository: [React-Journey](https://github.com/in-tech-gration/React-Journey)
 - [ ] Install [Live Server VSCode Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 **Study & Practice**
