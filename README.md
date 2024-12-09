@@ -25,9 +25,8 @@
 
 The simplest way to start experimenting with React, is by downloading the [HTML page](https://gist.githubusercontent.com/gaearon/0275b1e1518599bbeafcde4722e79ed1/raw/db72dcbf3384ee1708c4a07d3be79860db04bff0/example.html) example found in the [Try React locally](https://react.dev/learn/installation#try-react-locally) section of the documentation and running it locally using [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
-============================================== >
-
 - [x] [Your First Component](https://react.dev/learn/your-first-component)
+      ============================================== >
 - [ ] [Importing and Exporting Components](https://react.dev/learn/importing-and-exporting-components)
 - [ ] [Writing Markup with JSX](https://react.dev/learn/writing-markup-with-jsx)
 - [ ] [JavaScript in JSX with Curly Braces](https://react.dev/learn/javascript-in-jsx-with-curly-braces)
