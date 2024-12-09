@@ -35,7 +35,7 @@ The simplest way to start experimenting with React, is by downloading the [HTML 
 
 Most of the chapters from the documentation above contain small exercises that will give you the chance to practice on the concepts. You can also practice on the exercises below:
 
-- **Cookie Notice exercise**:
+- [ ] **Cookie Notice exercise**:
 
   - Inside the `DAY.01` folder, you'll find a folder named `exercises` which contains a static HTML file (`cookie-practice-original.html`) which contains a simple Cookie notice widget. Your task is to use the React quickstart HTML found [here](https://gist.githubusercontent.com/gaearon/0275b1e1518599bbeafcde4722e79ed1/raw/db72dcbf3384ee1708c4a07d3be79860db04bff0/example.html) and convert the Cookie notice widget into a React Component.
 
