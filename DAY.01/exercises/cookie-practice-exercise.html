@@ -1,64 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
-  <style>
-    #cookie {
-      position: fixed;
-      display: block;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: 0;
-      padding: 0;
-    }
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+    
+      function MyApp() {
+        return <h1>Hello, world!</h1>;
+      }
 
-    #cookie input {
-      display: none;
-    }
+      const container = document.getElementById('root');
+      const root = ReactDOM.createRoot(container);
+      root.render(<MyApp />);
 
-    #cookie input:not(:checked)~span::before {
-      content: "This site uses cookies!";
-      display: inline;
-    }
+    </script>
+    <!--
+      Note: this page is a great way to try React but it's not suitable for production.
+      It slowly compiles JSX with Babel in the browser and uses a large development build of React.
 
-    #cookie input:checked~* {
-      display: none;
-      pointer-events: none;
-    }
+      Read this page for starting a new React project with JSX:
+      https://react.dev/learn/start-a-new-react-project
 
-    #cookie {
-      color: white;
-      background-color: black;
-      text-align: center;
-    }
-
-    #cookie>* {
-      margin: 0.5em;
-    }
-
-    h1 {
-      text-align: center;
-    }
-  </style>
-</head>
-
-<body>
-  <!-- You can put this div anywhere -->
-  <div id="cookie">
-    <input type="checkbox" id="accept" />
-    <!-- Put text in CSS so search engines don't index it
-       This is optional! -->
-    <span></span>
-    <div class="btn btn-success"><label for="accept">Accept</label></div>
-  </div>
-  <h1>Content</h1>
-
-  <!-- Source: https://codepen.io/BrainStone/pen/WoEjaL -->
-</body>
-
+      Read this page for adding React with JSX to an existing project:
+      https://react.dev/learn/add-react-to-an-existing-project
+    -->
+  </body>
 </html>
