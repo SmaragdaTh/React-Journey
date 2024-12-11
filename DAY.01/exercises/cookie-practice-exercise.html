@@ -53,8 +53,11 @@
   </head>
   <body>
     <div id="root"></div>
-    <script type="text/babel">
 
+  
+
+    <script type="text/babel">
+      
       function Content() {
         return (
           <h1>Hello, world!</h1>
@@ -63,7 +66,7 @@
 
       function Button() {
         return (
-          <div className="btn btn-success"><label for="accept">Accept</label></div>
+          <div className="btn btn-success"><label htmlFor="accept">Accept</label></div>
         );
       }
 
@@ -89,6 +92,8 @@
       const container = document.getElementById('root');
       const root = ReactDOM.createRoot(container);
       root.render(<MyApp />);
+
+    
 
     </script>
   </body>
