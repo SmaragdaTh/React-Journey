@@ -28,7 +28,7 @@ The simplest way to start experimenting with React, is by downloading the [HTML 
 - [x] [Your First Component](https://react.dev/learn/your-first-component)
 - [x] [Importing and Exporting Components](https://react.dev/learn/importing-and-exporting-components)
 - [x] [Writing Markup with JSX](https://react.dev/learn/writing-markup-with-jsx)
-- [ ] [JavaScript in JSX with Curly Braces](https://react.dev/learn/javascript-in-jsx-with-curly-braces)
+- [x] [JavaScript in JSX with Curly Braces](https://react.dev/learn/javascript-in-jsx-with-curly-braces)
 
 **Exercises**
 
