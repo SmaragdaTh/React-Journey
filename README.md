@@ -2,6 +2,10 @@
 
 > React: The library for web and native user interfaces
 
+## Prerequisites
+
+  - [ ] [`try/catch/finally`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
+
 ## Day 01: Intro to the React Philosophy of Components
 
   **Agenda**
@@ -46,7 +50,6 @@
 
 ## Day 02
 
-  - [ ] Install VSCode Extension: [Draw.io](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio)
   - [ ] Install Browser Extension: [React DevTools](https://react.dev/learn/react-developer-tools#browser-extension)
 
   **Study & Practice** 
@@ -56,7 +59,20 @@
   - [Passing Props to a Component](https://react.dev/learn/passing-props-to-a-component)
   - [Conditional Rendering](https://react.dev/learn/conditional-rendering)
   - [Rendering Lists](https://react.dev/learn/rendering-lists)
+  - Start building your personal portfolio website using React
+    - [ ] Create a new (official) repository
+  - [ ] The `<YouTube>` Component challenge.
+    - [ ] Start by copying the [/DAY.02/exercises/youtube-original.html](./DAY.02/exercises/youtube-original.html) file. Rename to `/DAY.02/exercises/youtube.html` and start hacking! 
+
+  **Resources** 
+
+  - Live session code:
+    - Props: [/DAY.02/assets/live-session-14.12.2024-props.html](./DAY.02/assets/live-session-14.12.2024-props.html)
 
 ---
 
 ## Day 03
+
+---
+
+## Day 04
