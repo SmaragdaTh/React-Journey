@@ -73,6 +73,10 @@
 
 ## Day 03
 
+**Study & Practice**
+
+- [What is <StrictMode/>?](https://react.dev/reference/react/StrictMode)
+
 ---
 
 ## Day 04
