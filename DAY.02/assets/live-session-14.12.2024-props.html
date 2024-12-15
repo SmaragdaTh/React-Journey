@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+
+  
+
+  <script type="text/babel">
+    // JSX (NOT pure JS, NOT pure XML, NOT HTML)
+
+    function Test(){
+
+      // We start reading (us and the JSX compiler) in JS:
+      let a = 1;
+      let b = 2;
+  
+      // We switch (us and the compiler) to XML:
+      const markup = (
+        <h1>
+        XML <strong>Mode a b</strong>
+        a and b are just XML characters
+        </h1>
+      )
+      // We switch back to JS
+      console.log(a); // JS variables
+      console.log(b); // JS variables
+      // console.log(markup);
+
+      // IN JSX (JS) variables can hold XML.
+      // IN JSX, apart from booleans, strings, numbers, XML are 
+      // also considered (special) values:
+      // return markup;
+
+      // When in XML Mode, { signifies switching to JS and } going back to XML
+      return (
+        <div>
+          { a }
+          { b }
+          <strong>  { a + b }</strong>
+          {markup}
+          console.log("a", a);          a
+          b
+          <p>Test</p>
+        </div>
+      )
+    }
+
+    function App() {
+      return (
+        <div>
+          <h1>Hello</h1>
+          <Test />
+
+          <FancyHeading color="red" background="black">
+            Python
+          </FancyHeading>
+
+          <FancyHeading color="hotpink">
+            JavaScript
+          </FancyHeading>
+
+          <FancyHeading>
+            <strong>TypeScript</strong>
+            <span>What?</span>
+          </FancyHeading>
+        </div>
+      );
+    }
+
+    // All props become parameters:
+    // <FancyHeading color background />
+    function FancyHeading(props){
+      console.log("FancyHeading()");
+      // Ideally, make a check on color and background and conditionally
+      // apply the values to the style object, e.g. when no color or background is set, use some default values:
+      const styling = { color: props.color, background: props.background }
+      const { children } = props;
+
+      return (
+        // <h2 style="color:red; background:black;">FancyHeading</h2>
+        <h2 style={
+          { color: props.color }
+        }>
+         {children}
+        </h2>
+      );
+    }
+
+    // try {
+    //   bomb();
+    // } catch (e) {
+    //   console.log(e)
+    // }
+
+    // <ErrorBoundary>
+    //   <Bomb />
+    // </ErrorBoundary>
+
+    const container = document.getElementById('root');
+    const root = ReactDOM.createRoot(container);
+    root.render(
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
+    );
+
+  
+
+  </script>
+</body>
+</html>
