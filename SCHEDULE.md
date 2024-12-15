@@ -51,7 +51,7 @@ Most of the chapters from the documentation above contain small exercises that w
 
 ## Day 02
 
-- [ ] Install Browser Extension: [React DevTools](https://react.dev/learn/react-developer-tools#browser-extension)
+- [x] Install Browser Extension: [React DevTools](https://react.dev/learn/react-developer-tools#browser-extension)
 
 **Study & Practice**
 
@@ -61,7 +61,7 @@ Most of the chapters from the documentation above contain small exercises that w
 - [ ] [Conditional Rendering](https://react.dev/learn/conditional-rendering)
 - [ ] [Rendering Lists](https://react.dev/learn/rendering-lists)
 - [ ] Start building your personal portfolio website using React
-  - [ ] Create a new (official) repository
+- [ ] Create a new (official) repository
 - [ ] The `<YouTube>` Component challenge.
 
 ---
