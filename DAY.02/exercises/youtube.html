@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+  
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Tn6-PIqc4UM?si=eGY1td9dHezdq10R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/s2skans2dP4?si=iRqlaA4UrJ66dbnf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <div id="root"></div>
+
+  <script type="text/babel">
+    
+    // Challenge: create a YouTube Component that displays a video
+    // based on its id:
+    // <YouTube id="123456" />
+    // <YouTube id="789012" />
+
+    // 2nd Challenge: Loop through a list of video IDs and display all of them.
+
+    function YTVideo(props){
+      return (
+        <iframe width="560" height="315" src={`https://www.youtube.com/embed/${props.videoId}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+      )
+    }
+
+    function App() {
+
+      let videoIds = ['Tn6-PIqc4UM','s2skans2dP4'];
+
+      return (
+        <div>
+          {videoIds.map((id) => (
+            <YTVideo videoId={id} />
+            ))}
+        </div>
+      );
+    }
+
+    const container = document.getElementById('root');
+    const root = ReactDOM.createRoot(container);
+    root.render(
+      <React.StrictMode>
+        <App />
+      </React.StrictMode>
+    );
+
+
+  </script>
+
+</body>
+</html>
