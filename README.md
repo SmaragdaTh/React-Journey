@@ -73,6 +73,10 @@ Most of the chapters from the documentation above contain small exercises that w
 
 ## Day 03
 
+**Study & Practice**
+
+- [What is <StrictMode/>?](https://react.dev/reference/react/StrictMode)
+
 ---
 
 ## Day 04
