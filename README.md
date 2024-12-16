@@ -4,7 +4,7 @@
 
 ## Prerequisites
 
-- [ ] [`try/catch/finally`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
+- [x] [`try/catch/finally`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
 
 ## Day 01: Intro to the React Philosophy of Components
 
@@ -19,9 +19,9 @@
 
 **Tasks**
 
-- [ ] Create a personal/professional GitHub account
-- [ ] Fork GitHub Repository: [React-Journey](https://github.com/in-tech-gration/React-Journey)
-- [ ] Install [Live Server VSCode Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+- [x] Create a personal/professional GitHub account
+- [x] Fork GitHub Repository: [React-Journey](https://github.com/in-tech-gration/React-Journey)
+- [x] Install [Live Server VSCode Extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 **Study & Practice**
 
@@ -29,10 +29,10 @@
 
 The simplest way to start experimenting with React, is by downloading the [HTML page](https://gist.githubusercontent.com/gaearon/0275b1e1518599bbeafcde4722e79ed1/raw/db72dcbf3384ee1708c4a07d3be79860db04bff0/example.html) example found in the [Try React locally](https://react.dev/learn/installation#try-react-locally) section of the documentation and running it locally using [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
-- [ ] [Your First Component](https://react.dev/learn/your-first-component)
-- [ ] [Importing and Exporting Components](https://react.dev/learn/importing-and-exporting-components)
-- [ ] [Writing Markup with JSX](https://react.dev/learn/writing-markup-with-jsx)
-- [ ] [JavaScript in JSX with Curly Braces](https://react.dev/learn/javascript-in-jsx-with-curly-braces)
+- [x] [Your First Component](https://react.dev/learn/your-first-component)
+- [x] [Importing and Exporting Components](https://react.dev/learn/importing-and-exporting-components)
+- [x] [Writing Markup with JSX](https://react.dev/learn/writing-markup-with-jsx)
+- [x] [JavaScript in JSX with Curly Braces](https://react.dev/learn/javascript-in-jsx-with-curly-braces)
 
 **Exercises**
 
@@ -50,7 +50,7 @@ Most of the chapters from the documentation above contain small exercises that w
 
 ## Day 02
 
-- [ ] Install Browser Extension: [React DevTools](https://react.dev/learn/react-developer-tools#browser-extension)
+- [x] Install Browser Extension: [React DevTools](https://react.dev/learn/react-developer-tools#browser-extension)
 
 **Study & Practice**
 
