@@ -38,7 +38,7 @@
       return (
         <div>
           {videoIds.map((id) => (
-            <YTVideo videoId={id} />
+            <YTVideo key={id} videoId={id} />
             ))}
         </div>
       );
