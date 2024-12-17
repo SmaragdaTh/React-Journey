@@ -59,8 +59,8 @@ Most of the chapters from the documentation above contain small exercises that w
 - [x] [Passing Props to a Component](https://react.dev/learn/passing-props-to-a-component)
 - [ ] [Conditional Rendering](https://react.dev/learn/conditional-rendering)
 - [ ] [Rendering Lists](https://react.dev/learn/rendering-lists)
-- [ ] Start building your personal portfolio website using React
-- [ ] Create a new (official) repository
+- [x] Start building your personal portfolio website using React
+- [x] Create a new (official) repository
 - [x] The `<YouTube>` Component challenge.
 - [x] Start by copying the [/DAY.02/exercises/youtube-original.html](./DAY.02/exercises/youtube-original.html) file. Rename to `/DAY.02/exercises/youtube.html` and start hacking!
 
