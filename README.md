@@ -57,8 +57,8 @@ Most of the chapters from the documentation above contain small exercises that w
 > Use the Hints and/or Solutions only as a last resort!
 
 - [x] [Passing Props to a Component](https://react.dev/learn/passing-props-to-a-component)
-- [ ] [Conditional Rendering](https://react.dev/learn/conditional-rendering)
-- [ ] [Rendering Lists](https://react.dev/learn/rendering-lists)
+- [x] [Conditional Rendering](https://react.dev/learn/conditional-rendering)
+- [x] [Rendering Lists](https://react.dev/learn/rendering-lists)
 - [x] Start building your personal portfolio website using React
 - [x] Create a new (official) repository
 - [x] The `<YouTube>` Component challenge.
@@ -76,13 +76,15 @@ Most of the chapters from the documentation above contain small exercises that w
 **Study & Practice**
 
 - Create a React Project with vite:
+
   - [ ] `npm create vite@latest my-react-app -- --template react`
   - [ ] `cd my-react-app` _(you can use any name for your app folder)_
-  - [ ] `npm install` (one-time) 
+  - [ ] `npm install` (one-time)
   - [ ] `npm run dev` (run every time you want to develop)
   - [ ] https://vite.dev/guide/#scaffolding-your-first-vite-project
 
 - Other ways to start a new React project
+
   - https://react.dev/learn/start-a-new-react-project
 
 - [What is <StrictMode/>?](https://react.dev/reference/react/StrictMode)
