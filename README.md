@@ -77,11 +77,11 @@ Most of the chapters from the documentation above contain small exercises that w
 
 - Create a React Project with vite:
 
-  - [ ] `npm create vite@latest my-react-app -- --template react`
-  - [ ] `cd my-react-app` _(you can use any name for your app folder)_
-  - [ ] `npm install` (one-time)
-  - [ ] `npm run dev` (run every time you want to develop)
-  - [ ] https://vite.dev/guide/#scaffolding-your-first-vite-project
+  - [x] `npm create vite@latest my-react-app -- --template react`
+  - [x] `cd my-react-app` _(you can use any name for your app folder)_
+  - [x] `npm install` (one-time)
+  - [x] `npm run dev` (run every time you want to develop)
+  - [x] https://vite.dev/guide/#scaffolding-your-first-vite-project
 
 - Other ways to start a new React project
 
