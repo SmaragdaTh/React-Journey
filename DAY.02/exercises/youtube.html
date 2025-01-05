@@ -25,9 +25,17 @@
 
     // 2nd Challenge: Loop through a list of video IDs and display all of them.
 
-    function YTVideo(props){
+    function YTVideo(videoId){
       return (
-        <iframe width="560" height="315" src={`https://www.youtube.com/embed/${props.videoId}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        <iframe 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" 
+          allowFullScreen 
+          frameBorder="0" 
+          height="315" 
+          src={`https://www.youtube.com/embed/${videoId}`} 
+          title="YouTube video player" 
+          width="560"
+        />
       )
     }
 
