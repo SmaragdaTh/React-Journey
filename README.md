@@ -73,9 +73,8 @@ Most of the chapters from the documentation above contain small exercises that w
 
 ## Day 03
 
-  **Study & Practice**
+**Study & Practice**
 
-<<<<<<< HEAD
 - Create a React Project with vite:
 
   - [x] `npm create vite@latest my-react-app -- --template react`
@@ -87,17 +86,6 @@ Most of the chapters from the documentation above contain small exercises that w
 - Other ways to start a new React project
 
   - https://react.dev/learn/start-a-new-react-project
-=======
-  - Create a React Project with vite:
-    - [ ] `npm create vite@latest my-react-app -- --template react`
-    - [ ] `cd my-react-app` _(you can use any name for your app folder)_
-    - [ ] `npm install` (one-time) 
-    - [ ] `npm run dev` (run every time you want to develop)
-    - [ ] https://vite.dev/guide/#scaffolding-your-first-vite-project
-
-  - Other ways to start a new React project
-    - https://react.dev/learn/start-a-new-react-project
->>>>>>> upstream/main
 
   - [What is <StrictMode/>?](https://react.dev/reference/react/StrictMode)
   - [Creating an Element without JSX](https://react.dev/reference/react/createElement#creating-an-element-without-jsx)
