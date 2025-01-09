@@ -90,7 +90,7 @@ Most of the chapters from the documentation above contain small exercises that w
   - [What is <StrictMode/>?](https://react.dev/reference/react/StrictMode)
   - [Creating an Element without JSX](https://react.dev/reference/react/createElement#creating-an-element-without-jsx)
 
-  - More material for study and practice coming soon....
+  - More material for study and practice coming soon...
 
 ---
 
