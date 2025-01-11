@@ -8,11 +8,14 @@
       - Study: [useEffect @ react.dev](https://react.dev/reference/react/useEffect)
     - Study: [React.Fragments](https://react.dev/reference/react/Fragment)
 
-  Further study:
+  Further study & practice:
 
-  - `useLayoutEffect()`
+  - Study: `useLayoutEffect()`
     - https://blog.logrocket.com/react-useeffect-vs-uselayouteffect-hooks-examples/
     - https://www.youtube.com/watch?v=wU57kvYOxT4
+
+  - Practice: see if you can use one of these APIs to fetch some book data using `useEffect` and display them in your Book React app.
+    - https://isbndb.com/blog/book-api/
 
 ## References & Resources
 
