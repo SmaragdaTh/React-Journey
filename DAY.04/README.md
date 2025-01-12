@@ -1,6 +1,10 @@
 # Day 04
 
   - **Topics**:
+    - Hooks (in a nutshell):
+        - Functions that start with use*
+        - Can be used (executed) ONLY WITHIN Components OR custom Hooks
+        - Were created to give the same power to Functional Components (as Class-based Components)
     - React Component Lifecycle
       - Study the [diagram of the Lifecycle](https://wavez.github.io/react-hooks-lifecycle/)
       - Study [Render & Commit](https://react.dev/learn/render-and-commit) from the docs.
@@ -8,7 +12,7 @@
       - Study: [useEffect @ react.dev](https://react.dev/reference/react/useEffect)
     - Study: [React.Fragments](https://react.dev/reference/react/Fragment)
 
-  Further study & practice:
+  **Further study & practice**:
 
   - Study: `useLayoutEffect()`
     - https://blog.logrocket.com/react-useeffect-vs-uselayouteffect-hooks-examples/
@@ -18,6 +22,10 @@
     - https://isbndb.com/blog/book-api/
 
 ## References & Resources
+
+  - React rules:
+    - When a Component renders, all nested Components are also rendered.
+    - React compares previous state with current (new) state and re-renders only when they are different.
 
   - [JSON Placeholder](https://jsonplaceholder.typicode.com)
     - Sample JSON endpoint: `https://jsonplaceholder.typicode.com/todos/1`
