@@ -95,3 +95,10 @@ Most of the chapters from the documentation above contain small exercises that w
 ---
 
 ## Day 04
+
+- Topics: `useEffect` and `React Component Lifecycle`
+  - See [README](./DAY.04/README.md)
+
+---
+
+## Day 05
