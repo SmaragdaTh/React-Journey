@@ -100,3 +100,10 @@
 ---
 
 ## Day 05
+
+---
+
+## Day 06
+
+  - Topics: `PropTypes` and `useRef`
+    - See [README](./DAY.06/README.md)
