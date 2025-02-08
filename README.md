@@ -107,3 +107,10 @@
 
   - Topics: `PropTypes` and `useRef`
     - See [README](./DAY.06/README.md)
+
+---
+
+## Day 07
+
+  - Topics: `useRef` (Part 2)
+    - See [README](./DAY.07/README.md)
