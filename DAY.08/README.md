@@ -30,6 +30,10 @@
   and make sure to distinguish between re-renders of one Component instance 
   vs newly created instances (component unmounts and remounts again).
 
+## Reading
+
+  - [Fixing bugs found by double rendering in development](https://react.dev/reference/react/StrictMode#fixing-bugs-found-by-double-rendering-in-development)
+
 ## Extra Resources & References
 
   - [How To Deploy A React Vite App To Github Pages](https://www.youtube.com/watch?v=hn1IkJk24ow)
