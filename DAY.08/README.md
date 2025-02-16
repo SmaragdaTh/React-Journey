@@ -30,4 +30,8 @@
   and make sure to distinguish between re-renders of one Component instance 
   vs newly created instances (component unmounts and remounts again).
 
-## Reading
+## Extra Resources & References
+
+  - [How To Deploy A React Vite App To Github Pages](https://www.youtube.com/watch?v=hn1IkJk24ow)
+
+  - [How to run ESLint using a pre-commit hook](https://levelup.gitconnected.com/how-to-run-eslint-using-pre-commit-hook-25984fbce17e)
