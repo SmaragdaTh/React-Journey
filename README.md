@@ -114,3 +114,9 @@
 
   - Topics: `useRef` (Part 2)
     - See [README](./DAY.07/README.md)
+
+    ---
+
+## Day 08
+
+  - See [README](./DAY.08/README.md)
