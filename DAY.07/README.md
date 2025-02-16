@@ -5,6 +5,8 @@
   - Code review of submitted projects
   - `useRef` as a DOM access tool.
 
+  Lecture code can be found [here](./assets/App-Day-07.jsx)
+
 ## Reading
 
   - [Rendering Lists](https://react.dev/learn/rendering-lists)
