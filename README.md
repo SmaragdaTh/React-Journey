@@ -108,4 +108,18 @@ Most of the chapters from the documentation above contain small exercises that w
 ## Day 06
 
 - Topics: `PropTypes` and `useRef`
-- See [README](./DAY.06/README.md)
+  - See [README](./DAY.06/README.md)
+
+---
+
+## Day 07
+
+- Topics: `useRef` (Part 2)
+
+  - See [README](./DAY.07/README.md)
+
+  ***
+
+## Day 08
+
+- See [README](./DAY.08/README.md)
